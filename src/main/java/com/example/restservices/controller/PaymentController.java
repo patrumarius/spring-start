@@ -55,7 +55,7 @@ public class PaymentController {
     public ResponseEntity<PaymentDetails> makePayment(
             @RequestBody PaymentDetails paymentDetails
     ) {
-        LOGGER.log(Level.INFO, "Received payment {}", paymentDetails.getAmount());
+        LOGGER.log(Level.INFO, "Received payment {}", paymentDetails.getT());
 
         return ResponseEntity
                 .status(HttpStatus.ACCEPTED)

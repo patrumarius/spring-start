@@ -1,17 +1,15 @@
 package com.example.restservices.model;
 
-import java.io.Serializable;
-
 public class PaymentDetails {
 
-    private double amount;
+    private double t;
 
-    public double getAmount() {
-        return amount;
+    public double getT() {
+        return t;
     }
 
 
-    public void setAmount(double amount) {
-        this.amount = amount;
+    public void setT(double t) {
+        this.t = t;
     }
 }
