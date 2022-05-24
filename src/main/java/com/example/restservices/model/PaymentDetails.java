@@ -10,6 +10,7 @@ public class PaymentDetails {
         return amount;
     }
 
+
     public void setAmount(double amount) {
         this.amount = amount;
     }
